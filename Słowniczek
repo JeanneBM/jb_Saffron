@@ -138,6 +138,7 @@ void druk()
     for(list<string>::iterator i=lista.begin(); i!= lista.end(); ++i)
        plik<<*i<<endl;
     plik.close();
+    cout<<"Zapisano list\251 w pliku."<<endl;
     Sleep(2000);
     //SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),0);
 }
