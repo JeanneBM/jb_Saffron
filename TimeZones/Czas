@@ -1,0 +1,13 @@
+package pattern;
+import java.time.*;
+public class Czas {
+
+        public static void main(String[] args) {
+            Clock clock = Clock.systemDefaultZone();
+            System.out.println(clock);
+            long l = clock.millis();
+            System.out.println("l: " + l);
+            LocalDateTime ldt = LocalDateTime.now(clock);
+            System.out.println("ldt: " + ldt);
+        }
+    }
